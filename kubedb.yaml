@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: mhalkaaf/dockerdb:V1
+        image: vprofile/vprofiledb:V1
         args:
           - "ignore-db-dir=lost+found"
         volumeMounts:
@@ -38,3 +38,4 @@ spec:
           awsElasticBlockStore:
             volumeID: vol-0564cec6c06caf69b
             fsType: ext4
+
