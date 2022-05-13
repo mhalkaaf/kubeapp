@@ -17,7 +17,7 @@ spec:
       containers:
         - name: vproapp
           image: mhalkaaf/dockerapp:V1
-          port:
+          ports:
             - name: vproapp-port
               containerPort: 8080
       initContainers:
